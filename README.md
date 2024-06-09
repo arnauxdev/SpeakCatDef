@@ -37,8 +37,8 @@ Asegúrate de tener instalados los siguientes componentes:
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/speakcat.git
-   cd speakcat
+   git clone https://github.com/tu-usuario/speakcatdef.git
+   cd speakcatdef
    ```
 
 2. Abre Android Studio y selecciona "Open an existing Android Studio project".
