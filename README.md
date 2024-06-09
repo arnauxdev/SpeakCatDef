@@ -1,1 +1,70 @@
-# SpeakCat
+SpeakCat - Aplicación Interactiva para Aprender Catalán
+
+Bienvenido a SpeakCat, una aplicación interactiva diseñada para ayudar a los usuarios a aprender catalán de manera efectiva y divertida. Esta aplicación fue desarrollada durante un fin de semana con el objetivo de ofrecer una experiencia de aprendizaje accesible y enriquecedora.
+
+Características
+
+Lecciones Interactivas: Lecciones diseñadas para ser interactivas y fáciles de seguir.
+Ejercicios Prácticos: Variedad de ejercicios prácticos para reforzar el aprendizaje.
+Pruebas de Conocimiento: Pruebas para evaluar tu progreso y conocimiento.
+Audio y Pronunciación: Ejemplos de pronunciación nativa para mejorar tus habilidades de escucha y habla.
+Gamificación: Sistema de puntos y logros para mantener la motivación.
+Tecnologías Utilizadas
+
+Plataforma:
+
+Android Studio
+Java/Kotlin
+Base de Datos:
+
+SQLite (local)
+Herramientas y Servicios:
+
+API de Text-to-Speech
+Firebase (para notificaciones y análisis)
+Instalación y Configuración
+
+Prerrequisitos
+Asegúrate de tener instalados los siguientes componentes:
+
+Android Studio
+JDK 8 o superior
+Emulador de Android o dispositivo físico con Android
+Pasos para la Instalación
+Clona el repositorio en tu máquina local:
+
+bash
+Copiar código
+git clone https://github.com/tu-usuario/speakcat.git
+cd speakcat
+Abre Android Studio y selecciona "Open an existing Android Studio project".
+
+Navega hasta la carpeta del proyecto clonado y ábrela.
+
+Android Studio debería sincronizar automáticamente las dependencias del proyecto. Si no lo hace, selecciona File > Sync Project with Gradle Files.
+
+Configura las variables de entorno necesarias (por ejemplo, para Firebase) en el archivo local.properties o directamente en el archivo build.gradle.
+
+Conecta tu dispositivo Android o inicia un emulador.
+
+Construye y ejecuta la aplicación seleccionando Run > Run 'app' en Android Studio.
+
+Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+Haz un fork del repositorio.
+Crea una rama con tu nueva funcionalidad (git checkout -b feature/nueva-funcionalidad).
+Realiza los cambios necesarios y haz commit (git commit -m 'Añadida nueva funcionalidad').
+Empuja los cambios a tu repositorio fork (git push origin feature/nueva-funcionalidad).
+Abre un Pull Request en GitHub.
+Licencia
+
+Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+
+Contacto
+
+Para preguntas o sugerencias, por favor contacta a arnauux@icloud.com.
+
+¡Gracias por usar SpeakCat! Esperamos que disfrutes aprendiendo catalán con nuestra aplicación.
+
