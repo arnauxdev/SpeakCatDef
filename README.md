@@ -64,64 +64,12 @@ Asegúrate de tener instalados los siguientes componentes:
 4. Empuja los cambios a tu repositorio fork (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request en GitHub.
 
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo [LICENSE](./LICENSE).
 
 ## Contacto
 
-Para preguntas o sugerencias, por favor contacta a [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com).
+Para preguntas o sugerencias, por favor contacta a [tu-email@ejemplo.com](mailto:arnauux@icloud.com).
 
 ---
 
 ¡Gracias por usar SpeakCat! Esperamos que disfrutes aprendiendo catalán con nuestra aplicación.
-E.md…]()
-
-API de Text-to-Speech
-Firebase (para notificaciones y análisis)
-Instalación y Configuración
-
-Prerrequisitos
-Asegúrate de tener instalados los siguientes componentes:
-
-Android Studio
-JDK 8 o superior
-Emulador de Android o dispositivo físico con Android
-Pasos para la Instalación
-Clona el repositorio en tu máquina local:
-
-bash
-Copiar código
-git clone https://github.com/tu-usuario/speakcat.git
-cd speakcat
-Abre Android Studio y selecciona "Open an existing Android Studio project".
-
-Navega hasta la carpeta del proyecto clonado y ábrela.
-
-Android Studio debería sincronizar automáticamente las dependencias del proyecto. Si no lo hace, selecciona File > Sync Project with Gradle Files.
-
-Configura las variables de entorno necesarias (por ejemplo, para Firebase) en el archivo local.properties o directamente en el archivo build.gradle.
-
-Conecta tu dispositivo Android o inicia un emulador.
-
-Construye y ejecuta la aplicación seleccionando Run > Run 'app' en Android Studio.
-
-Contribuciones
-
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-Haz un fork del repositorio.
-Crea una rama con tu nueva funcionalidad (git checkout -b feature/nueva-funcionalidad).
-Realiza los cambios necesarios y haz commit (git commit -m 'Añadida nueva funcionalidad').
-Empuja los cambios a tu repositorio fork (git push origin feature/nueva-funcionalidad).
-Abre un Pull Request en GitHub.
-Licencia
-
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
-
-Contacto
-
-Para preguntas o sugerencias, por favor contacta a arnauux@icloud.com.
-
-¡Gracias por usar SpeakCat! Esperamos que disfrutes aprendiendo catalán con nuestra aplicación.
-
+ 
