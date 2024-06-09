@@ -13,7 +13,7 @@ Bienvenido a **SpeakCat**, una aplicación interactiva diseñada para ayudar a l
 
 - **Plataforma:**
   - Android Studio
-  - Java/Kotlin
+  - Kotlin
 
 - **Base de Datos:**
   - SQLite (local)
