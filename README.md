@@ -1,6 +1,6 @@
 # SpeakCat - Aplicación Interactiva para Aprender Catalán
 
-Bienvenido a **SpeakCat**, una aplicación interactiva diseñada para ayudar a los usuarios a aprender catalán de manera efectiva y divertida. Esta aplicación fue desarrollada durante un fin de semana con el objetivo de ofrecer una experiencia de aprendizaje accesible y enriquecedora.
+Bienvenido a **SpeakCat**, una aplicación interactiva diseñada para ayudar a los usuarios a aprender catalán de manera efectiva y divertida. Esta aplicación fue desarrollada como proyecto de fin de grado (DAW) con el objetivo de ofrecer una experiencia de aprendizaje accesible y enriquecedora.
 
 ## Características
 
