@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.speakcat.screens.title.TitleFragment"
+        android:label="TitleFragment"
+        tools:layout="@layout/fragment_title">
+        <action
+            android:id="@+id/action_titleFragment_to_levelFragment"
+            app:destination="@id/levelFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/levelFragment"
+        android:name="com.example.speakcat.screens.level.LevelFragment"
+        android:label="LevelFragment"
+        tools:layout="@layout/fragment_level">
+        <argument
+            android:name="userData"
+            app:argType="com.example.speakcat.screens.UserData" />
+        <action
+            android:id="@+id/action_levelFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.speakcat.screens.game.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game">
+        <argument
+            android:name="userData"
+            app:argType="com.example.speakcat.screens.UserData"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_gameFragment_to_scoreFragment"
+            app:destination="@id/scoreFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.example.speakcat.screens.score.ScoreFragment"
+        android:label="ScoreFragment"
+        tools:layout="@layout/fragment_score">
+        <argument
+            android:name="score"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="playerName"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_scoreFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+</navigation>
