@@ -7,7 +7,6 @@ Bienvenido a **SpeakCat**, una aplicación interactiva diseñada para ayudar a l
 - **Lecciones Interactivas:** Lecciones diseñadas para ser interactivas y fáciles de seguir.
 - **Ejercicios Prácticos:** Variedad de ejercicios prácticos para reforzar el aprendizaje.
 - **Pruebas de Conocimiento:** Pruebas para evaluar tu progreso y conocimiento.
-- **Audio y Pronunciación:** Ejemplos de pronunciación nativa para mejorar tus habilidades de escucha y habla.
 - **Gamificación:** Sistema de puntos y logros para mantener la motivación.
 
 ## Tecnologías Utilizadas
