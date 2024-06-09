@@ -66,7 +66,7 @@ Asegúrate de tener instalados los siguientes componentes:
 
 ## Contacto
 
-Para preguntas o sugerencias, por favor contacta a [tu-email@ejemplo.com](mailto:arnauux@icloud.com).
+Para preguntas o sugerencias, por favor contacta a [arnauux@icloud.com](mailto:arnauux@icloud.com).
 
 ---
 
