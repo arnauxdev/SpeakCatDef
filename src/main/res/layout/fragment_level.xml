@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <data>
+        <!-- Data binding variables can be declared here if needed -->
+    </data>
+
+    <LinearLayout
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@drawable/fonslevel">
+        android:background="@drawable/fonslevel"
+        android:padding="16dp">
 
-        <!-- Pregunta de selección de nivel -->
+        <!-- Mensaje de bienvenida -->
         <TextView
             android:id="@+id/welcomeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¿Qué nivel quieres hacer hoy?"
             android:textSize="18sp"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
 
         <!-- Botones de selección de nivel -->
         <RadioGroup

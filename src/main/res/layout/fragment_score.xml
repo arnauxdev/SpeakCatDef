@@ -10,14 +10,15 @@
     <!-- TextView para mostrar el nombre del jugador -->
 
     <!-- TextView para mostrar el resultado -->
+
     <TextView
         android:id="@+id/playerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="295dp"
         android:padding="8dp"
-        android:text="Jugador:"
-        android:textColor="@color/white"
+        android:text=""
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,9 +28,9 @@
         android:id="@+id/displayResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="25dp"
         android:text=""
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/playerName"
@@ -41,7 +42,7 @@
         android:id="@+id/playAgain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="74dp"
         android:backgroundTint="@color/verde"
         android:text="Juega de nuevo"
         app:layout_constraintEnd_toEndOf="parent"

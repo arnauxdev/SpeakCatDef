@@ -117,6 +117,7 @@
                 android:text="Enviar respuesta"
                 android:backgroundTint="@color/verde"
                 android:layout_margin="10dp"/>
+
         </LinearLayout>
     </ScrollView>
 

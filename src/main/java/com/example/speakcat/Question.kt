@@ -12,5 +12,6 @@ data class Question(
     val optionTwo: String,
     val optionThree: String,
     val optionFour: String,
-    val correctAnswer: Int
+    val correctAnswer: Int,
+    var userSelectedAnswer: Int = 0
 ) : Parcelable

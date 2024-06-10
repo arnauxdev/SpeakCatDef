@@ -29,7 +29,7 @@ object Constants {
 
          val q4 = Question(
              4, "Completa la frase: 'Uno, dos, ______'.",
-             0, "Número uno", "Número tres", "Número dos", "Número cuatro", 3
+             0, "Número uno", "Número tres", "Número dos", "Número cuatro", 2
          )
          questionsList.add(q4)
 
@@ -129,6 +129,126 @@ object Constants {
          )
          questionsList.add(q20)
 
+         val q21 = Question(
+             21, "¿Cuál es el antónimo de 'hola' en catalán?",
+             0, "Benvinguts", "Adéu", "Si us plau", "Fins després", 2
+         )
+         questionsList.add(q21)
+
+         val q22 = Question(
+             22, "¿Qué parte del día sigue después del atardecer?",
+             0, "Migdia", "Nit", "Matí", "Migjorn", 2
+         )
+         questionsList.add(q22)
+
+         val q23 = Question(
+             23, "¿Cómo se dice 'mesa' en catalán?",
+             0, "Cadira", "Sofà", "Taula", "Llibreria", 3
+         )
+         questionsList.add(q23)
+
+         val q24 = Question(
+             24, "¿Cuál es la capital de Cataluña?",
+             0, "Madrid", "Sevilla", "Barcelona", "Valencia", 3
+         )
+         questionsList.add(q24)
+
+         val q25 = Question(
+             25, "¿Cómo se llama el fenómeno en el que la luz solar es bloqueada temporalmente?",
+             0, "Nevada", "Lluna", "Estiu", "Eclipsi", 4
+         )
+         questionsList.add(q25)
+
+         val q26 = Question(
+             26, "¿Qué elemento es comúnmente utilizado para escribir?",
+             0, "Foc", "Aigua", "Paper", "Ferro", 3
+         )
+         questionsList.add(q26)
+
+         val q27 = Question(
+             27, "¿Cómo se llama el acto de moverse de un lugar a otro?",
+             0, "Caminar", "Nadar", "Conduir", "Volta", 1
+         )
+         questionsList.add(q27)
+
+         val q28 = Question(
+             28, "¿Qué parte del cuerpo humano se utiliza para ver?",
+             0, "Ull", "Nas", "Orella", "Boca", 1
+         )
+         questionsList.add(q28)
+
+         val q29 = Question(
+             29, "¿Qué comida típica catalana es una tortilla hecha con huevos y patatas?",
+             0, "Paella", "Truita de patatas", "Empanada", "Fideuà", 2
+         )
+         questionsList.add(q29)
+
+         val q30 = Question(
+             30, "¿Cuál es el nombre del río más largo de España?",
+             0, "Ebro", "Duero", "Tajo", "Guadalquivir", 1
+         )
+         questionsList.add(q30)
+
+         val q31 = Question(
+             31, "¿Cómo se dice 'buenos días' en catalán?",
+             0, "Bona tarda", "Bon vespre", "Bona nit", "Bon dia", 4
+         )
+         questionsList.add(q31)
+
+         val q32 = Question(
+             32, "¿Qué actividad implica moverse bajo el agua?",
+             0, "Surf", "Esquí", "Natación", "Buceo", 4
+         )
+         questionsList.add(q32)
+
+         val q33 = Question(
+             33, "¿Cuál es la bebida más consumida en el mundo?",
+             0, "Agua", "Café", "Té", "Cerveza", 1
+         )
+         questionsList.add(q33)
+
+         val q34 = Question(
+             34, "¿Cómo se dice 'coche' en catalán?",
+             0, "Cotxe", "Bici", "Autobús", "Tren", 1
+         )
+         questionsList.add(q34)
+
+         val q35 = Question(
+             35, "¿Qué significa 'somni' en catalán?",
+             0, "Comida", "Sueño", "Cine", "Trabajo", 2
+         )
+         questionsList.add(q35)
+
+         val q36 = Question(
+             36, "¿Cuál es la capital de España?",
+             0, "Barcelona", "Valencia", "Madrid", "Sevilla", 3
+         )
+         questionsList.add(q36)
+
+         val q37 = Question(
+             37, "¿Qué animal es conocido por su velocidad y tiene rayas negras y blancas?",
+             0, "Tigre", "Jirafa", "Cebra", "León", 3
+         )
+         questionsList.add(q37)
+
+         val q38 = Question(
+             38, "¿Qué actividad se realiza para mantener el cuerpo en buena forma?",
+             0, "Dormir", "Comer", "Ejercicio", "Ver la televisión", 3
+         )
+         questionsList.add(q38)
+
+         val q39 = Question(
+             39, "¿Cómo se dice 'hola' en catalán?",
+             0, "Hola", "Adéu", "Benvinguts", "Fins després", 1
+         )
+         questionsList.add(q39)
+
+         val q40 = Question(
+             40, "¿Qué parte de la planta se utiliza para respirar?",
+             0, "Raíz", "Hojas", "Flores", "Tronco", 2
+         )
+         questionsList.add(q40)
+
          questionsList.shuffle()
 
         return questionsList
@@ -146,7 +266,7 @@ object Constants {
 
          val q2 = Question(
              2, "¿Qué significa 'fer de reüll' en catalán?",
-             0, "Hacer de reflejo", "Hacer de tripas corazón", "Hacer de oído", "Hacer de tripas corazón", 3
+             0, "Hacer de reflejo", "Hacer de tripas corazón", "Hacer de oído", "Hacer de reojo", 4
          )
          questionsList.add(q2)
 
@@ -158,7 +278,7 @@ object Constants {
 
          val q4 = Question(
              4, "¿Qué significa 'esbarzer' en catalán?",
-             0, "Despertarse", "Espaciar", "Despeinarse", "Desparramar", 4
+             0, "Despertarse", "Espaciar", "Despeinarse", "Zarzal", 4
          )
          questionsList.add(q4)
 
@@ -176,7 +296,7 @@ object Constants {
 
          val q7 = Question(
              7, "¿Cuál es la forma verbal correcta del verbo 'prendre' en la tercera persona del singular del subjuntivo presente?",
-             0, "Preni", "Prengui", "Prendi", "Prengui", 2
+             0, "Preni", "Prengui", "Prendi", "Pendre", 2
          )
          questionsList.add(q7)
 
@@ -200,7 +320,7 @@ object Constants {
 
          val q11 = Question(
              11, "¿Cuál es la forma correcta del gerundio del verbo 'morir' en catalán?",
-             0, "Morint", "Mort", "Morent", "Mortat", 3
+             0, "Morint", "Mort", "Morent", "Mortat", 1
          )
          questionsList.add(q11)
 
@@ -247,8 +367,8 @@ object Constants {
          questionsList.add(q18)
 
          val q19 = Question(
-             19, "¿Cuál es la traducción correcta de 'bresquilla' al castellano?",
-             0, "Breza", "Brezco", "Bresca", "Bresquilla", 4
+             19, "¿Cuál es la traducción correcta de 'presec' al castellano?",
+             0, "Breza", "Brezco", "Bresca", "Melocotón", 4
          )
          questionsList.add(q19)
 
@@ -257,6 +377,129 @@ object Constants {
              0, "Cucurucho", "Cucut", "Cucú", "Cucurucho", 3
          )
          questionsList.add(q20)
+
+         val q21 = Question(
+             21, "¿Cuál es la traducción correcta de 'esforç' al castellano?",
+             0, "Esfuerzo", "Esfuerza", "Esforzar", "Esfuerce", 1
+         )
+         questionsList.add(q21)
+
+         val q22 = Question(
+             22, "¿Qué significa 'menjar' en castellano?",
+             0, "Beber", "Dormir", "Comer", "Jugar", 3
+         )
+         questionsList.add(q22)
+
+         val q23 = Question(
+             23, "¿Cuál es la traducción correcta de 'camí' al castellano?",
+             0, "Camino", "Caminante", "Camine", "Caminar", 1
+         )
+         questionsList.add(q23)
+
+         val q24 = Question(
+             24, "¿Qué significa 'petit' en catalán?",
+             0, "Pequeño", "Petición", "Patito", "Petición", 1
+         )
+         questionsList.add(q24)
+
+         val q25 = Question(
+             25, "¿Cuál es la traducción correcta de 'estiu' al castellano?",
+             0, "Otoño", "Invierno", "Verano", "Primavera", 3
+         )
+         questionsList.add(q25)
+
+         val q26 = Question(
+             26, "¿Qué significa 'gran' en catalán?",
+             0, "Grano", "Grande", "Grúa", "Gris", 2
+         )
+         questionsList.add(q26)
+
+         val q27 = Question(
+             27, "¿Cuál es la traducción correcta de 'família' al castellano?",
+             0, "Familia", "Familiar", "Famoso", "Famosa", 1
+         )
+         questionsList.add(q27)
+
+         val q28 = Question(
+             28, "¿Qué significa 'amic' en catalán?",
+             0, "Amigo", "Amo", "Amarillo", "Amable", 1
+         )
+         questionsList.add(q28)
+
+         val q29 = Question(
+             29, "¿Cuál es la traducción correcta de 'treballar' al castellano?",
+             0, "Trabajar", "Trabar", "Traballo", "Trabarse", 1
+         )
+         questionsList.add(q29)
+
+         val q30 = Question(
+             30, "¿Qué significa 'cotxe' en catalán?",
+             0, "Coche", "Cuchara", "Cosa", "Cochecito", 1
+         )
+         questionsList.add(q30)
+
+         val q31 = Question(
+             31, "¿Cuál es la traducción correcta de 'llibre' al castellano?",
+             0, "Libre", "Librar", "Libro", "Librito", 3
+         )
+         questionsList.add(q31)
+
+         val q32 = Question(
+             32, "¿Qué significa 'sorpresa' en catalán?",
+             0, "Sorpresa", "Sospecha", "Sobresaliente", "Sobre", 1
+         )
+         questionsList.add(q32)
+
+         val q33 = Question(
+             33, "¿Cuál es la traducción correcta de 'classe' al castellano?",
+             0, "Clase", "Clásico", "Clara", "Claridad", 1
+         )
+         questionsList.add(q33)
+
+         val q34 = Question(
+             34, "¿Qué significa 'feliç' en catalán?",
+             0, "Feliz", "Felino", "Fe", "Flecha", 1
+         )
+         questionsList.add(q34)
+
+         val q35 = Question(
+             35, "¿Cuál es la traducción correcta de 'amic' al castellano?",
+             0, "Amigo", "Amo", "Amarillo", "Amable", 1
+         )
+         questionsList.add(q35)
+
+         val q36 = Question(
+             36, "¿Qué significa 'temps' en catalán?",
+             0, "Temporada", "Tiempo", "Templo", "Temporal", 2
+         )
+         questionsList.add(q36)
+
+         val q37 = Question(
+             37, "¿Cuál es la traducción correcta de 'casa' al castellano?",
+             0, "Caso", "Cose", "Casa", "Caseta", 3
+         )
+         questionsList.add(q37)
+
+         val q38 = Question(
+             38, "¿Qué significa 'famós' en catalán?",
+             0, "Famoso", "Familiar", "Fama", "Familia", 1
+         )
+         questionsList.add(q38)
+
+         val q39 = Question(
+             39, "¿Cuál es la traducción correcta de 'infant' al castellano?",
+             0, "Infantil", "Infancia", "Infante", "Infarto", 3
+         )
+         questionsList.add(q39)
+
+         val q40 = Question(
+             40, "¿Qué significa 'lluna' en catalán?",
+             0, "Luna", "Lumbre", "Lunes", "Llanto", 1
+         )
+         questionsList.add(q40)
+
+         questionsList.shuffle()
+
          return questionsList
     }
 
@@ -387,6 +630,125 @@ object Constants {
              0, "Arbres", "Arbros", "Arbè", "Arbresos", 1
          )
          questionsList.add(q20)
+         val q21 = Question(
+             21, "¿Cuál es la forma correcta del imperfecto de subjuntivo del verbo 'tenir' (tener) en catalán?",
+             0, "Tingués", "Tinguera", "Tenís", "Tinguí", 1
+         )
+         questionsList.add(q21)
+
+         val q22 = Question(
+             22, "¿Qué significa la expresión 'fer-ne cinc cèntims' en catalán?",
+             0, "Hacer una pausa", "Explicar brevemente", "Pedir ayuda", "Gastar dinero", 2
+         )
+         questionsList.add(q22)
+
+         val q23 = Question(
+             23, "¿Cuál es la forma correcta del presente de indicativo del verbo 'viure' (vivir) en catalán?",
+             0, "Vius", "Vis", "Vius", "Viv", 1
+         )
+         questionsList.add(q23)
+
+         val q24 = Question(
+             24, "¿Qué significa la palabra 'caldre' en catalán?",
+             0, "Cortar", "Necesitar", "Llegar", "Calentar", 2
+         )
+         questionsList.add(q24)
+
+         val q25 = Question(
+             25, "¿Cuál es el plural correcto de 'amic' en catalán?",
+             0, "Amics", "Amigos", "Amicses", "Amigues", 1
+         )
+         questionsList.add(q25)
+
+         val q26 = Question(
+             26, "¿Qué significa 'esquena' en catalán?",
+             0, "Espalda", "Pierna", "Brazo", "Cabeza", 1
+         )
+         questionsList.add(q26)
+
+         val q27 = Question(
+             27, "¿Cuál es la forma correcta del pretérito perfecto del verbo 'anar' (ir) en catalán?",
+             0, "He anat", "Vaig anar", "He andat", "Vaig andat", 1
+         )
+         questionsList.add(q27)
+
+         val q28 = Question(
+             28, "¿Qué significa la expresión 'estar com un llum' en catalán?",
+             0, "Estar muy iluminado", "Estar loco", "Estar atento", "Estar dormido", 2
+         )
+         questionsList.add(q28)
+
+         val q29 = Question(
+             29, "¿Cuál es la forma correcta del futuro simple del verbo 'poder' en catalán?",
+             0, "Podré", "Podrà", "Podràs", "Podrí", 1
+         )
+         questionsList.add(q29)
+
+         val q30 = Question(
+             30, "¿Qué significa 'esquerra' en catalán?",
+             0, "Derecha", "Izquierda", "Frente", "Atrás", 2
+         )
+         questionsList.add(q30)
+
+         val q31 = Question(
+             31, "¿Cuál es la forma correcta del condicional compuesto del verbo 'venir' (venir) en catalán?",
+             0, "Hauria vingut", "Vindria", "Hauria vengut", "Vingueria", 1
+         )
+         questionsList.add(q31)
+
+         val q32 = Question(
+             32, "¿Qué significa 'ull' en catalán?",
+             0, "Oreja", "Nariz", "Ojo", "Boca", 3
+         )
+         questionsList.add(q32)
+
+         val q33 = Question(
+             33, "¿Cuál es la forma correcta del pretérito pluscuamperfecto del verbo 'veure' (ver) en catalán?",
+             0, "Havia vist", "Vaig veure", "Havia veur", "Veia", 1
+         )
+         questionsList.add(q33)
+
+         val q34 = Question(
+             34, "¿Qué significa 'germà' en catalán?",
+             0, "Hermana", "Hermano", "Primo", "Tío", 2
+         )
+         questionsList.add(q34)
+
+         val q35 = Question(
+             35, "¿Cuál es la forma correcta del futuro perfecto del verbo 'voler' (querer) en catalán?",
+             0, "Hauré volgut", "Volgrà", "Haurà volgut", "Volgerà", 1
+         )
+         questionsList.add(q35)
+
+         val q36 = Question(
+             36, "¿Qué significa 'taula' en catalán?",
+             0, "Silla", "Mesa", "Ventana", "Puerta", 2
+         )
+         questionsList.add(q36)
+
+         val q37 = Question(
+             37, "¿Cuál es la forma correcta del presente de indicativo del verbo 'dormir' (dormir) en catalán?",
+             0, "Dorm", "Dormi", "Dormo", "Dorma", 1
+         )
+         questionsList.add(q37)
+
+         val q38 = Question(
+             38, "¿Qué significa 'tarda' en catalán?",
+             0, "Mañana", "Tarde", "Noche", "Día", 2
+         )
+         questionsList.add(q38)
+
+         val q39 = Question(
+             39, "¿Cuál es la forma correcta del presente de subjuntivo del verbo 'saber' (saber) en catalán?",
+             0, "Sapi", "Sepa", "Sapiga", "Sapies", 3
+         )
+         questionsList.add(q39)
+
+         val q40 = Question(
+             40, "¿Qué significa 'llegir' en catalán?",
+             0, "Escribir", "Leer", "Correr", "Hablar", 2
+         )
+         questionsList.add(q40)
 
          questionsList.shuffle()
         return questionsList
