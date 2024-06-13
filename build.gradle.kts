@@ -1,10 +1,9 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    id("kotlin-parcelize") // Para usar la anotación @Parcelize
+    id("kotlin-parcelize") // Para usar @Parcelize
+
 }
-
-
 
 android {
     namespace = "com.example.speakcat"
@@ -42,6 +41,7 @@ android {
 }
 
 dependencies {
+    implementation("org.xerial:sqlite-jdbc:3.36.0.3")
     implementation("androidx.navigation:navigation-fragment-ktx:2.4.0")
     implementation("androidx.navigation:navigation-ui-ktx:2.4.0")
     implementation(libs.androidx.core.ktx)
