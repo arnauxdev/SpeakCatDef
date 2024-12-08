@@ -1,3 +1,0 @@
-com.example.speakcat.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
